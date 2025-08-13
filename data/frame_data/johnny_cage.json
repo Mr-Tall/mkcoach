@@ -1,1 +1,36 @@
-
+{
+  "character": "Johnny Cage",
+  "moves": [
+    {
+      "name": "1",
+      "type": "high",
+      "startup": 7,
+      "active": 2,
+      "recovery": 12,
+      "on_block": -2,
+      "on_hit": 1,
+      "cancel": true,
+      "notes": "Fast jab for checks and punishes."
+    },
+    {
+      "name": "b3",
+      "type": "mid",
+      "startup": 9,
+      "active": 2,
+      "recovery": 17,
+      "on_block": -3,
+      "on_hit": 2,
+      "cancel": true,
+      "notes": "Good stagger; sets up throw/strike."
+    },
+    {
+      "name": "f4,4",
+      "type": "string",
+      "startup": 11,
+      "on_block": -8,
+      "gap_frames": 6,
+      "cancel": false,
+      "notes": "Last hit unsafe; confirm cancel routes."
+    }
+  ]
+}
