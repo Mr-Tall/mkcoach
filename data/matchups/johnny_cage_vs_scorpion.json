@@ -1,1 +1,10 @@
-
+{
+  "matchup": "Johnny Cage vs Scorpion",
+  "notes": [
+    "Teleport is -14 on block; buffer 7f jab punish at range.",
+    "Neutral jump can blow up spear tick throws."
+  ],
+  "punishes": [
+    {"opponent_move": "Teleport", "on_block": -14, "recommended": ["1,1 xx launcher", "b3 starter"]}
+  ]
+}
