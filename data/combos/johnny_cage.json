@@ -1,1 +1,19 @@
-
+{
+  "character": "Johnny Cage",
+  "routes": [
+    {
+      "label": "Meterless midscreen BnB",
+      "starter": "b3",
+      "difficulty": "easy",
+      "steps": ["b3", "f4,4~cancel", "dash", "1,1,2", "ball ender"],
+      "damage": 27
+    },
+    {
+      "label": "Corner punish -12",
+      "starter": "1,1",
+      "difficulty": "medium",
+      "steps": ["1,1", "b3", "dash", "f4,4", "ender"],
+      "damage": 31
+    }
+  ]
+}
