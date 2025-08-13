@@ -1,1 +1,27 @@
-
+{
+  "character": "Scorpion",
+  "moves": [
+    {
+      "name": "1",
+      "type": "high",
+      "startup": 7,
+      "active": 2,
+      "recovery": 12,
+      "on_block": -2,
+      "on_hit": 1,
+      "cancel": true,
+      "notes": "Standard jab."
+    },
+    {
+      "name": "Teleport (on block)",
+      "type": "special",
+      "startup": 20,
+      "active": 3,
+      "recovery": 24,
+      "on_block": -14,
+      "on_hit": -1,
+      "cancel": false,
+      "notes": "Highly unsafe on block; bait and punish."
+    }
+  ]
+}
